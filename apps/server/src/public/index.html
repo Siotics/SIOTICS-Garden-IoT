@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Siram Paksa</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mqtt/4.3.7/mqtt.min.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="https://unpkg.com/cronstrue@2.51.0/dist/cronstrue.min.js"></script>
+        <script src="https://unpkg.com/cronstrue@2.51.0/locales/id.min.js"></script>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <dialog id="connected-device">
+            <h1>Connected Devices</h1>
+            <ul>
+                <li><input type="radio" name="" id="" /></li>
+            </ul>
+            <button class="cancel">Cancel</button>
+            <button class="add">Tambahkan</button>
+        </dialog>
+        <h1>Siram Paksa</h1>
+        <p>Status : <span id="broker-status">Terputus</span></p>
+        <button id="add-devices">Tambah perangkat</button>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
